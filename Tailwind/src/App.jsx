@@ -1,14 +1,19 @@
-
-import './App.css'
-import "tailwindcss";
-
+import React from "react";
+import "./App.css";
+import Card from "./components/card";
 
 function App() {
   return (
     <>
-      <h1>Hello from tailwind</h1>
+      <Card  username="hitesh" />
+      <br></br>
+      <h1 className="bg-green-500 text-black rounded-xl font-bold ">
+        Hello from tailwind
+      </h1>
+      <br></br>
+      <Card  username="Sandeep" btnText="visit me  "/>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
