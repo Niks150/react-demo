@@ -32,7 +32,7 @@ export default function App() {
           readOnly
           value={password}
           placeholder="Your generated password appears here"
-          className="w-full rounded-xl bg-white/90 text-gray-900 px-4 py-3 mb-5 outline-none ring-2 ring-transparent focus:ring-white/60"
+          className="w-full rounded-xl bg-white/90 text-gray-900 px-4 py-3 mb-5 outline-none ring-2 ring-transparent focus:ring-white/60 "
         />
 
         {/* Toggle buttons */}
