@@ -21,7 +21,6 @@ function App() {
     document.querySelector('html').classList.remove("light", "dark");
     document.querySelector('html').classList.add(theamMode);
   }, [theamMode]);
-
   return (
     
     <TheameProvider value = {{theamMode , DarkTheame , LightTheame }}>
