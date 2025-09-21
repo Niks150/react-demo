@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "./App.css";
 import { TodoProvider } from "./context";
 import {
@@ -8,7 +7,7 @@ import {
   toggleComplete,
 } from "./context/TodoActions";
 function App() {
-  const [todos, setTodos] = useState();
+  
 
 
 
@@ -17,7 +16,7 @@ function App() {
 
   return (
     <TodoProvider
-      value={{ addTodo, deleteTodo, updateTodo, toggleComplete, Todos }}
+      value={{ addTodo, deleteTodo, updateTodo, toggleComplete,  }}
     >
       <div className="bg-[#172842] min-h-screen py-8">
         <div className="w-full max-w-2xl mx-auto shadow-md rounded-lg px-4 py-3 text-white">
